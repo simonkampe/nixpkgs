@@ -23,6 +23,7 @@ in
 
 {
   meta.maintainers = [ maintainers.romildo ];
+  meta.buildDocsInSandbox = false;
 
   options = {
     qt5 = {
