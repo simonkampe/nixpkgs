@@ -105,6 +105,8 @@ rec {
       openssl
       libxcrypt-legacy
       musl
+      fontconfig
+      lttng-ust_2_12
     ] ++ lib.optionals (stdenv.isLinux && stdenv.isAarch64) [
       expat
       libxml2
